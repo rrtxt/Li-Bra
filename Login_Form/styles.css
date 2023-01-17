@@ -104,6 +104,10 @@
     height: 28px;
 }
 
+#submit-label:hover{
+    cursor: pointer;
+}
+
 #submit-title {
     text-align: center;
     font-family: 'Work Sans';
@@ -125,12 +129,17 @@
 #password-input {
     width: 100%;
     border: 2px solid rgba(0, 0, 0, 0.6);
-    border-top: none;
-    border-right: none;
-    border-left: none;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
     background: none;
     margin: 25px auto;
     padding: 15px 5px;
+}
+
+#username-input:focus,
+#password-input:focus{
+    outline: none;
 }
 
 #password-input {
