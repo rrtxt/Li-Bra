@@ -1,0 +1,35 @@
+a {
+    color: white;
+}
+
+.nav, .nav-menu, .nav-list {
+    display: flex;
+    align-items: center;
+
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #05396B;
+    height: 62.98px;
+    justify-content: space-between;
+    padding: 0 72px;
+    z-index: 999;
+}
+
+.nav-menu img {
+    margin-right: 72px;
+    width: 33px;
+    height: 36.98px;
+}
+
+.nav-item, .nav-signin {
+    padding: 22px 30px;
+    cursor: pointer;
+}
+ 
+.nav-item:hover, .nav-signin:hover {
+    background-color: #0155A1;
+}
