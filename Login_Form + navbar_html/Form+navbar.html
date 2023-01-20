@@ -6,10 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Formstyles.css">
 </head>
 
 <body>
+    <nav class="nav">
+        <div class="nav-menu">
+            <img src="/assets/img/logo.png" alt="logo">
+            <div class="nav-list">
+                <div class="nav-item"><a href="#">Home</a></div>
+                <div class="nav-item"><a href="#">About</a></div>
+            </div>
+        </div>
+        <div class="nav-signin">
+            <a href="#">Sign In</a>
+        </div>
+
+    </nav>
+    
     <div class="login-container">
         <form id="form-login">
             <div id="title-loginform" class="Content-Distance">
@@ -20,10 +34,12 @@
                 <input id="username-input" name="username" type="text" placeholder="Username" required>
                 <input id="password-input" name="password" type="password" placeholder="Password" required>
             </div>
-            
+
             <button id="button-label" type="submit" class="Content-Distance">
                 <div id="submit-wrap">
-                    <label id="submit-label" for="submit-title"><h3 id="submit-title">Sign In</h3></label>
+                    <label id="submit-label" for="submit-title">
+                        <h3 id="submit-title">Sign In</h3>
+                    </label>
                 </div>
             </button>
         </form>
