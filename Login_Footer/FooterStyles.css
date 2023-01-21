@@ -1,0 +1,267 @@
+/* CSS Admin Login Footer */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Footer-section {
+    display: flex;
+    align-items: center;
+    padding: 65px 72px;
+    width: 1280px;
+    height: 231px;
+    background: #05396B;
+
+}
+
+.Frame-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 183px;
+    background: #05396B;
+    width: 1136px;
+    height: 101px;
+}
+
+.Footer-icon-facebook,.Footer-icon-linkedin,.Footer-icon-twitter,.Footer-icon-instagram,
+.List-About {
+    list-style: none;
+    color: white;
+
+}
+
+.Footer-icon-facebook,.Footer-icon-linkedin {
+    font-size: 36px;
+}
+
+.Footer-icon-twitter{
+    font-size: 41.84px;
+}
+
+.Footer-icon-instagram{
+    font-size: 40px;
+}
+
+
+
+/* Frame size*/
+.Frame-Li-Bra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 252px;
+    height: 98.62px;
+}
+
+.Frame-About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 13px;
+    gap: 38px;
+    width: 254px;
+    height: 88px;
+}
+
+.Frame-Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 25px;
+    width: 264px;
+    height: 101px;
+}
+
+
+/*logo*/
+#Frame-LiBra-logo{
+    padding-bottom: 2.38px;
+}
+
+/* desc */
+#Copyright-desc {
+    padding-left: 5px;
+}
+
+
+.Li-Bra-copyright {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#ul-About {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 254px;
+    height: 22px;
+}
+
+.Libra-Logo {
+    width: 88px;
+    height: 98.62px;
+}
+
+
+
+#Contact-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+
+#Li-Bra-title {
+    width: 70px;
+    height: 28px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.Li-Bra-copyright i {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+}
+
+
+.Li-Bra-copyright {
+    margin-top: 10px;
+}
+
+
+#Copyright-desc {
+    width: 132px;
+    height: 19px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+}
+
+.About-title-frame {
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#About-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Contact-title-frame {
+    width: 85px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#ul-About {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 254px;
+    height: 22px;
+}
+
+.List-About {
+    width: 67px;
+    height: 22px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-icon-frame{
+    width: 48px;
+    height: 48px;
+    padding:6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ul-Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 264px;
+    height: 48px;
+    gap: 24px;
+}
+
+
+.List-About-1 li {
+    width: 67px;
+    height: 22px;
+}
+
+
+
+.List-About-2 li {
+    width: 57px;
+    height: 22px;
+}
+
+.List-About-3 li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 82px;
+    height: 22px;
+}
