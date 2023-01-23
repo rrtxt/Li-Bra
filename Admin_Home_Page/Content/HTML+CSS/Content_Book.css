@@ -1,0 +1,71 @@
+/* Container */
+#Container_Book_List {
+    width: 1279px;
+    height: 693px;
+}
+
+#First_Book_Frame,
+#Second_Book_Frame,
+#Third_Book_Frame {
+    display: flex;
+    padding: 20px 72px;
+}
+
+#First_Book_Wrapper,
+#Second_Book_Wrapper,
+#Third_Book_Wrapper {
+    width: 1135px;
+    height: 191px;
+    padding: 0px;
+    gap: 66px;
+}
+
+#pen-icon-frame {
+    background: #05396B;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 37px;
+    padding: 8px 24px;
+    width: 72px;
+    height: 40px;
+}
+
+#trash-icon-frame {
+    background: #D55151;
+    border-radius: 50px;
+    padding: 8px 24px;
+    width: 72px;
+    height: 40px;
+}
+
+
+#First-Book-Logo {
+    display: flex;
+    height: 191px;
+    width: 132px;
+    left: 0px;
+    top: 0px;
+    border-radius: 25px;
+}
+
+#First-Book-image {
+    height: 191px;
+    border-radius: 25px;
+}
+
+.Add-Delete-Frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0px;
+    width: 168px;
+    height: 40px;
+    gap: 24px;
+}
+
+/* icon-size */
+
+#pen-icon,#trash-icon{
+    font-size: 18px;
+    color: #FFFFFF;
+}

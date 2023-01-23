@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Column-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Row-Flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Row-Flexbox-List {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.Bold-Text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.Desc-Text {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.Book_Title {
+    font-family: 'Work Sans', sans-serif;
+    width: 146px;
+    height: 84px;
+}
+
+.Book_Publisher {
+    width: 101px;
+    height: 56px;
+}
+
+.Book-Writer {
+    width: 86px;
+    height: 44px;
+}
+
+.Book_Year {
+    width: 76px;
+    height: 22px;
+}
+
+.Book_Pages {
+    width: 86px;
+    height: 44px;
+}
+
+
+
+.Book_Title,
+.Book_Publisher,
+.Book-Writer,
+.Book_Year,
+.Book_Pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#First_Book_Frame,
+#Second_Book_Frame,
+#Third_Book_Frame {
+    height: 231px;
+    width: 1279px;
+}
+
+#First_Book_Frame,
+#Third_Book_Frame {
+    background: rgba(6, 45, 82, 0.06);
+}
