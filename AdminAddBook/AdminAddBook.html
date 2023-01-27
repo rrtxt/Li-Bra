@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AdminAddBook.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+    <link rel="stylesheet" href="/assets/css/env.css">
+    <title>Admin Add Book</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-menu">
+            <img src="/assets/img/logo.png" alt="logo">
+            <div class="nav-list">
+                <div class="nav-item"><a href="#">Home</a></div>
+                <div class="nav-item"><a href="#">Books</a></div>
+                <div class="nav-item"><a href="#">About</a></div>
+            </div>
+        </div>
+        <div class="nav-signin">
+            <a href="#">Sign In</a>
+        </div>
+    </nav>
+    <div class="form-container">
+        <h1 class="h1">Menambah Data Buku</h1>
+        <form action="" method="" class="form">
+            <div class="label-input-container">
+                <div class="label-container">
+                    <label for="sampul" class="label-item h3">Sampul Buku</label>
+                    <label for="judul" class="label-item h3">Judul Buku</label>
+                    <label for="penerbit" class="label-item h3">Penerbit</label>
+                    <label for="penulis" class="label-item h3">Penulis</label>
+                    <label for="tahun" class="label-item h3">Tahun Terbit</label>
+                    <label for="halaman" class="label-item h3">Jumlah Halaman</label>
+                </div>
+                <div class="input-container">
+                    <div class="container-file-img">
+                        <input class="input-item" type="file" name="sampul" id="sampul" value="" accept="image/png, image/jpg">
+                        <i class="fa fa-times"></i>
+                        <div id="display-input-img"></div>
+                    </div>
+                    <input class="input-item" type="text" name="judul" id="judul" value="">
+                    <input class="input-item" type="text" name="penerbit" id="penerbit" value="">
+                    <input class="input-item" type="text" name="penulis" id="penulis" value="">
+                    <input class="input-item" type="text" name="tahun" id="tahun" value="">
+                    <input class="input-item" type="text" name="halaman" id="halaman" value="">
+                </div>
+            </div>
+        </form>
+        <button type="submit" name="submit" class="btn-green">Simpan</button>
+    </div>
+    <script src="AdminAddBook.js"></script>
+</body>
+
+</html>
