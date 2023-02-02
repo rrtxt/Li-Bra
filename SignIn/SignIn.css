@@ -1,0 +1,173 @@
+.bg-container {
+    position: relative;
+    width: fit-content;
+}
+
+.bg-hidden {
+    width: max-content;
+    overflow: hidden;
+}
+
+.makima, .power {
+    position: fixed;
+    z-index: -9999999;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.makima {
+    background-image: url(/assets/img/__render___makima___chainsaw_man_by_shuyunova_dei158z-fullview\ 2.png);
+    width: 70vw;
+    height: 180vh;
+    right: -340px;
+    top: -100px;
+}
+
+.power {
+    background-image: url(/assets/img/render___power___chainsaw_man_by_whitersnake_dejtvjn-fullview1\ 2.png);
+    width: 70vw;
+    height: 163vh;
+    left: -350px;
+}
+
+/* body {
+    background: url(/render___power___chainsaw_man_by_whitersnake_dejtvjn-fullview1\ 2.png) no-repeat -200px 100px, url(/__render___makima___chainsaw_man_by_shuyunova_dei158z-fullview\ 2.png) no-repeat 300px top;
+} */
+
+.login-container {
+    width: 392px;
+    height: 515px;
+    background: rgba(233, 238, 226, 0.3);
+    border: 1.5px solid rgba(5, 57, 107, 0.9);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto 300px;
+}
+
+#Admin-login {
+    width: 176px;
+    height: 118px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.Content-Distance {
+    margin: 50px auto;
+}
+
+#title-loginform {
+    margin-top: 7.5px;
+    width: 176px;
+    height: 118px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#button-label {
+    width: 232px;
+    height: 48px;
+    background: #389583;
+    border: none;
+    border-radius: 37px;
+}
+
+#form-login {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#username-input {
+    width: 91px;
+    height: 22px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#password-input {
+    width: 83px;
+    height: 22px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#submit-wrap {
+    width: 232px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit-label {
+    width: 80px;
+    height: 28px;
+}
+
+#submit-label:hover{
+    cursor: pointer;
+}
+
+#submit-title {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+}
+
+#username-input,
+#password-input {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    background: none;
+    margin: 25px auto;
+    padding: 15px 5px;
+}
+
+#username-input:focus,
+#password-input:focus{
+    outline: none;
+}
+
+#password-input {
+    margin-top: 10px;
+}

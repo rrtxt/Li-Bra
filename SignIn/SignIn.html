@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="SignIn.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+    <link rel="stylesheet" href="/assets/css/foot.css">
+    <link rel="stylesheet" href="/assets/css/env.css">
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="bg-hidden">
+            <div class="power"></div>
+            <div class="makima"></div>
+        </div>    
+    </div>
+    <nav class="nav">
+        <div class="nav-menu">
+            <img src="/assets/img/logo.png" alt="logo">
+            <div class="nav-list">
+                <div class="nav-item"><a href="#">Home</a></div>
+                <div class="nav-item"><a href="#">About</a></div>
+            </div>
+        </div>
+        <div class="nav-signin">
+            <a href="#">Sign In</a>
+        </div>
+
+    </nav>
+    
+    <div class="login-container">
+        <form id="form-login">
+            <div id="title-loginform" class="Content-Distance">
+                <h1 id="Admin-login">Admin Login</h1>
+            </div>
+
+            <div class="input" class="Content-Distance">
+                <input id="username-input" name="username" type="text" placeholder="Username" required>
+                <input id="password-input" name="password" type="password" placeholder="Password" required>
+            </div>
+
+            <button id="button-label" type="submit" class="Content-Distance">
+                <div id="submit-wrap">
+                    <label id="submit-label" for="submit-title">
+                        <h3 id="submit-title">Sign In</h3>
+                    </label>
+                </div>
+            </button>
+        </form>
+    </div>
+
+    <footer class="Footer-section">
+        <div class="frame-logo">
+            <img src="..\Image\Book_Logo.svg">
+            <div class="copyright">
+                <h3>Li-Bra</h3>
+                <i class="fa-regular fa-copyright copyright-text"></i><span> Copyright</span>
+            </div>
+        </div>
+
+        <div class="frame-wrapper">
+            <div class="frame-about">
+                <h3>ABOUT US</h3>
+                <div class="frame-about-choice">
+                    <a href="">Careers</a>
+                    <a href="">Teams</a>
+                    <a href="">Our Story</a>
+                </div>
+            </div>
+
+            <div class="frame-social">
+                <h3>SOCIAL</h3>
+                <div class="frame-social-choice">
+                    <a href="" ><i class="fa-brands fa-square-facebook icon" ></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin icon"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter icon"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
